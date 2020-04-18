@@ -7357,13 +7357,26 @@ h6 {
 
 /* Custom css */
 .dolbyvoice{
-  height: 200px!important;
-  width: 400px!important;
+  height: 150px!important;
+  width: 370px!important;
   margin: auto;
 }
+
+.slide_head{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.slide_para{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .delta_features{
   margin-top: 50px;
-  width: 50%;
+  /* width: 50%; */
   /* align-items: ; */
   justify-content: left;
   text-align: left;
@@ -7374,61 +7387,50 @@ h6 {
 }
 
 .features_sub_head{
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 .features_para{
   color: #4d90c5;
+  margin-top: 40px;
+}
+
+.feature_img{
+  margin-top: 50px;
+  height: 600px;
+  width: 100%;
 }
 
 .unified_communication{
   margin-top: 20px;
-  margin-left: 20px;
-  color: #B21D23;
+  /* margin-left: 20px; */
+  color: #4d90c5;
 }
 
 .unified_communication_main{
-  /* display: flex; */
-  background-color: #3b3737;
-  margin-top: 25px;
-  height: 200px;
+  background-color: #423f3e;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .unified_communication_logo{
-  float: left;
-  /* padding-top: 80px; */
-  /* padding-bottom: 50px; */
-  /* padding-left: 100px; */
-  margin-left: 90px;
-  color: #146e1b;
   height: 200px;
-  vertical-align: middle;
-  /* width: 40%; */
-  width: 250px;
-  font-size: 200px;
+  width: 220px;
 }
 
 .unified_communication_title{
-  /* clear: both; */
-  display: table;
-  color: #db5c1d;
-  height: 100px;
-  width: 60%;
-  font-size: x-large;
-  padding-left: 200px;
-  padding-top: 50px;
-  padding-right: 50px;
+  color: #e84f1c;
+  font-size: larger;
+  font-weight: bold;
+  padding-left: 100px;
+  padding-right: 100px;
+  word-spacing: 4px;
 }
 
 .unified_communication_desc{
-  /* clear: both; */
-  display: table;
-  color: white;
-  height: 100px;
-  width: 60%;
-  font-size: small;
-  padding-left: 200px;
-  padding-right: 50px;
+  color: #f5f1f0;
 }
 
 .unified_communication_para{
@@ -7437,11 +7439,10 @@ h6 {
 
 /* solution card */
 .card{
-  border: solid red;
+  border: solid #4d90c5;
   height: 390px;
   width: 270px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -7452,7 +7453,7 @@ h6 {
   margin-right: 20px;
 }
 .collaboration_icon{
-  color: #fd8e5e;
+  color: #4d90c5;
   font-size: 50px;
   margin-top: 20px;
   margin-bottom: 50px;
@@ -7472,7 +7473,80 @@ h6 {
 }
 
 .card a{
+  color: #3B5997;
+  padding: 10px 15px;
+  /* background-color: #4d90c5; */
+  border: 2px solid #4d90c5;
+}
+
+.card a:hover{
+  background-color: #4d90c5;
   color: white;
-  padding: 7px 10px;
-  background-color: tomato;
+}
+
+
+/* media queries */
+
+@media(max-width:1024px){
+  .header-area .main-header-area .main-menu{
+    padding-left: 80px;
+  }
+  .unified_communication_title {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .card{
+    border: solid #4d90c5;
+    height: 390px;
+    width: 100%;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media(max-width:768px){
+  .card{
+    border: solid #4d90c5;
+    height: 390px;
+    width: 100%;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media(max-width:425px){
+  .unified_communication_title {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .dolbyvoice{
+    height: 110px!important;
+    width: 300px!important;
+    margin: auto;
+  }
+  .slide_head{
+    font-size: 30px;
+    margin-top: 150px;
+    line-height: 5px;
+  }
+  .slider_text p{
+    margin-top: 10px;
+  }
+  .card{
+    border: solid #4d90c5;
+    height: 375px;
+    width: 95%;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .card_footer{
+    padding-bottom: 20px;
+    width: 100%;
+  }
 }
