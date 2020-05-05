@@ -238,7 +238,7 @@ h3 {
 .overlay2::before {
   position: absolute;
   content: "";
-  background-color: rgba(10, 12, 14, 0.685);
+  background-color: #0b1015cc;
   top: 0;
   left: 0;
   width: 100%;
@@ -7577,5 +7577,11 @@ html{
   .card_footer{
     padding-bottom: 20px;
     width: 100%;
+  }
+  .feature-icon i{
+    padding-left: 0px;
+  }
+  .features_sub_head, .features_para{
+    text-align: center;
   }
 }
