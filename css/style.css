@@ -7384,6 +7384,25 @@ html{
   /* align-items: ; */
   justify-content: left;
   text-align: left;
+  align-items: center ;
+}
+
+.feature-icon i{
+  font-size: 60px;
+  color: #4d90c5;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0!important; */
+  padding-top: 110px;
+  padding-left: 50px;
+  /* margin-right: 10px; */
+}
+
+.features_head{
+  text-align: center;
+  margin-top: 15px;
 }
 
 .features_head, .features_para{
@@ -7397,13 +7416,18 @@ html{
 
 .features_para{
   /* color: #4d90c5; */
-  margin-top: 40px;
+  margin-top: 30px;
+}
+
+.features:hover .features_sub_head{
+  border-bottom: 2px solid #4d90c5;
 }
 
 .feature_img{
   margin-top: 50px;
   height: 600px;
   width: 100%;
+  border-radius: 25px;
 }
 
 .unified_communication{
