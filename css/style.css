@@ -7513,6 +7513,47 @@ html{
   color: white;
 }
 
+.what-do-card{
+  border:2px solid #4d90c5;
+  border-radius: 15px;
+  height: 290px;
+  width: 350px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.what-do-icon i{
+  font-size: 60px;
+  color: #4d90c5;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0!important; */
+  /* padding-top: 110px; */
+  /* padding-left: 50px; */
+  /* margin-right: 10px; */
+  padding-top: 50px;
+  padding-left: 35px;
+}
+
+.what-do-head h3{
+  margin: 0;
+  padding-top: 50px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.what-do-card p{
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 20px;
+  padding-top: 40px;
+}
 
 /* media queries */
 
@@ -7533,6 +7574,23 @@ html{
     justify-content: center;
     text-align: center;
   }
+  .what-do-card{
+    border:2px solid #4d90c5;
+    border-radius: 15px;
+    height: 290px;
+    width: 300px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .what-do-head h3{
+    font-size: 25px;
+    position: relative;
+    text-align: left;
+    /* justify-content: center;
+    align-items: center; */
+  }
 }
 
 @media(max-width:768px){
@@ -7544,6 +7602,26 @@ html{
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
+  .what-do-card{
+    border:2px solid #4d90c5;
+    border-radius: 15px;
+    height: 300px;
+    width: 320px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .what-do-head h3{
+    text-align: center;
+    padding-top: 15px;
+  }
+  .what-do-icon i{
+    position: relative;
+    text-align: center;
+    padding: 0%;
+    padding-top: 20px;
   }
 }
 
@@ -7582,6 +7660,45 @@ html{
     padding-left: 0px;
   }
   .features_sub_head, .features_para{
+    text-align: center;
+  }
+  .what-do-card {
+    border: solid #4d90c5;
+    height: 335px;
+    width: 85%;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media(max-width:375px){
+  .what-do-card {
+    border: solid #4d90c5;
+    height: 335px;
+    width: 85%;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media(max-width:325px){
+  .what-do-card {
+    border: solid #4d90c5;
+    height: 335px;
+    width: 85%;
+    margin-top: 10px;
+    margin-left: 22px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
     text-align: center;
   }
 }
